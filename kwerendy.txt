@@ -1,0 +1,12 @@
+SELECT `samochody`.`kolor`, `samochody`.`marka`, `samochody`.`model`
+FROM `samochody`
+WHERE `samochody`.`kolor` = 'czerwony';
+
+UPDATE `samochody` SET `stan` = 'dobry' WHERE `samochody`. rocznik = 2003\
+
+CREATE user 'andrzej'@'localhost' IDENTIFIED BY 'andrzej1@'
+
+
+GRANT SELECT, UPDATE ON `jak zrobiles cos zlego to spodziewaj sie tu kary, wjezdza kto? .`.`samochody` TO 'andrzej'@'localhost';
+
+
